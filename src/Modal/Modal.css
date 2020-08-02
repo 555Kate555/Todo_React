@@ -1,0 +1,36 @@
+.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.modal__body {
+    padding: 2rem;
+    width: 400px;
+    border-radius: 5px;
+    background: #ffffff;
+    height: 200px;
+}
+
+.modal__btn {
+    margin: 35px auto;
+    display: flex;
+    text-transform: uppercase;
+    cursor:pointer;
+    background: #7fffd4;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    padding: 12px 28px;
+    border:2px solid #4f9a81;
+}
+
+.modal__btn:hover {
+    background: #deefe9;
+}
